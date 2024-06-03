@@ -1,0 +1,38 @@
+/* Asterisk to remove inherit browser padding/margin etc.*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Generic Styles */
+body {
+    height: 100vh;
+}
+
+header {
+    height: 10%;
+    background-color:burlywood;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 2px 2px cyan;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: aquamarine;
+    height: 1500px;
+}
+
+/* Styles relating to the header */
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#web-header {
+  padding: 15px;
+}
