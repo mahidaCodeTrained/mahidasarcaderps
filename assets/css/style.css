@@ -85,3 +85,9 @@ header h1 {
     display: inline-block;
     
 }
+
+button {
+    background-color: red;
+    font-size: 24px;
+    cursor: pointer;
+}
