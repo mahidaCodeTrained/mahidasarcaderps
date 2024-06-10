@@ -60,7 +60,8 @@ header h1 {
 }
 
 .positionbox {
-    margin: 40px 10px 10px 10px;
+    margin: 5px 10px 10px 10px;
+    
 }
 
 button {
@@ -69,11 +70,24 @@ button {
     cursor: pointer;
     margin-top: 50px;
     margin-left: 200px;
-    width: 25%;
+    width: 80%;
     display: inline-block;
 }
 
 button img {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+img {
+    height: 150px;
+}
+
+#rock-div, #paper-div, #scissors-div {
+    display: inline-block;
+    width: 30%;
+}
+
+h3 {
+  padding-left: 20px;
 }
