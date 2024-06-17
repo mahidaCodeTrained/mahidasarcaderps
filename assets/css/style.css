@@ -47,7 +47,7 @@ header h1 {
 .game-screen {
     background-color: darkgrey;
     width: 100%;
-    height: 10%;
+    height: 40%;
     margin-top: 85px;
     display: inline-block;
    
@@ -77,23 +77,13 @@ button {
     margin-top: 50px;
     margin-left: 200px;
     width: 80%;
-    display: inline-block;
+    height: 100px;
 }
 
-button img {
-    width: 100%;
-    object-fit: cover;
+#selector:hover {
+    background-color: green;
+    transition: 0.5s;
 }
-
-img {
-    height: 150px;
-}
-
-#rock-div, #paper-div, #scissors-div {
-    display: inline-block;
-    width: 30%;
-}
-
 h3 {
   padding-left: 20px;
 }
@@ -103,7 +93,7 @@ h3 {
 .game-score {
     border: 2px solid black;
     width: 50%;
-    height: 20%;
+    height: 40%;
     align-items: center;
     position: relative;
     left: 75px;
@@ -114,9 +104,11 @@ h3 {
     background-color: darkgreen;
     width: 40%;
     position: relative;
-    top: 78px;
+    top: 58px;
     right: 70px;
     text-align: center;
+    font-family: monospace;
+    
 }
 
 
@@ -124,11 +116,42 @@ h3 {
     background-color: red;
     width: 50%;
     position: relative;
-    top: 60px;
+    top: -25px;
     left: 160px;
     text-align: center;
+    font-family: monospace;
 }
 
+.scoreboard {
+    text-align: center;
+    position: relative;
+    background-color: azure;
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    top: 20px;
+}
+
+span > p {
+    margin: 25px;
+    font-size: 25px;
+}
+
+#choices {
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   margin-top: 50px;
+}
+
+#rock-div, #paper-div, #scissors-div {
+    width: 30%;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+}
 
 
 
@@ -144,5 +167,16 @@ h3 {
         position: relative;
         left: 25%;
         
+    }
+
+    #player-user {
+        left: -390px;
+        width: 30%;
+
+    }
+
+    #computer-bot {
+        left: 1050px;
+        width: 30%;
     }
 }
