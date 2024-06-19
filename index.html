@@ -21,29 +21,33 @@
         <div class="game-screen game-font">
             <h2>Rock, Paper Scissors!</h2>
             <p>It's time to test yourself... can you win a game of Rock, Paper Scissors!</p>
+            <div class="game-score">
 
-        </div>
+                <div id="player-score">User </div>
+                <span class="scoreboard">
+                    <p>0:0</p>
+                </span>
+                <div id="computer-score"> Computer </div>    
+            </div>
 
-        <div class="game-score">
+            <div id="userDisplay">USER:</div>
+                <div id="computerDisplay">COMPUTER:</div>
+            </div>
+        
 
-            <div id="player-user">User </div>
-            <span class="scoreboard">
-                <p>0:0</p>
-            </span>
-            <div id="computer-bot"> Computer </div>
+       
 
-        </div>
-
+        <div id="choices">
         <div id="rock-div">
             <h3>Rock</h3>
-            <button class="pointer positionbox">
+            <button onclick="playgame('rock')" id="selector" class="positionbox">
                 <i class="fa-solid fa-hand-back-fist" style="color: #ffea00;"></i>
             </button>
         </div>
 
         <div id="paper-div">
             <h3>Paper</h3>
-            <button class="pointer positionbox">
+            <button onclick="playgame('paper')" id="selector" class="positionbox">
                 <i class="fa-solid fa-toilet-paper" style="color: #FFD43B;"></i>
 
             </button>
@@ -51,10 +55,12 @@
 
         <div id="scissors-div">
             <h3>Scissors</h3>
-            <button class="pointer positionbox">
+            <button onclick="playgame('scissors')" id="selector" class="positionbox">
                 <i class="fa-solid fa-scissors" style="color: #FFD43B;"></i>
             </button>
         </div>
+    </div>
+    <p><em>What will you choose?</em></p>
     </main>
 
     <script src="https://kit.fontawesome.com/6cc20290e7.js" crossorigin="anonymous"></script>
