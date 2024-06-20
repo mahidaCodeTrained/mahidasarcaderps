@@ -102,9 +102,10 @@ h3 {
     position: relative;
     left: 75px;
     margin-top: 20px;
+    background-color: aliceblue;
 }
 
-#player-score {
+#player-name {
     background-color: darkgreen;
     width: 40%;
     position: relative;
@@ -116,7 +117,7 @@ h3 {
 }
 
 
-#computer-score {
+#computer-name {
     background-color: red;
     width: 50%;
     position: relative;
@@ -126,19 +127,12 @@ h3 {
     font-family: monospace;
 }
 
-.scoreboard {
-    text-align: center;
-    position: relative;
-    background-color: azure;
-    display: inline-block;
-    width: 100%;
-    height: 50%;
-    
-}
-
-span>p {
+span {
     margin: 25px;
-    font-size: 25px;
+    font-size: 35px;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
 }
 
 #choices {
@@ -181,16 +175,17 @@ footer {
     .game-score {
         position: relative;
         left: 25%;
+        text-align: center;
 
     }
 
-    #player-score {
+    #player-name {
         left: -390px;
         width: 30%;
 
     }
 
-    #computer-score {
+    #computer-name {
         left: 1050px;
         width: 30%;
     }
