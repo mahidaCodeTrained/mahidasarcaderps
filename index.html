@@ -26,16 +26,15 @@
             <div class="game-score">
 
                 <!-- The html for the scoreboard where the score is displayed -->
-                <div id="player-score">User </div>
-                <span class="scoreboard">
-                    <p>0:0</p>
-                </span>
-                <div id="computer-score"> Computer </div>    
+                <div id="player-name">User </div>
+                <span id="player-score">0</span>:<span id="computer-score">0</span>
+                <div id="computer-name"> Computer </div>    
             </div>
 
             <!--The result display on who wins.-->
             <div id="playerDisplay">USER:</div>
                 <div id="computerDisplay">COMPUTER:</div>
+                <div id="resultDisplay"></div>
             </div>
         
 
@@ -51,7 +50,7 @@
 
         <div id="paper-div">
             <h3>Paper</h3>
-            <button onclick="playGame('paper')" id="selector" class="positionbox">
+            <button onclick= "playGame('paper')" id="selector" class="positionbox">
                 <i class="fa-solid fa-toilet-paper" style="color: #FFD43B;"></i>
 
             </button>
@@ -65,10 +64,15 @@
         </div>
     </div>
     <p><em>What will you choose?</em></p>
+   
     </main>
 
+    <footer>
+        This is the footer
+    </footer>
+
     <script src="https://kit.fontawesome.com/6cc20290e7.js" crossorigin="anonymous"></script>
-    <script src="/assets/javascript/app.js"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
