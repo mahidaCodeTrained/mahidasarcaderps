@@ -8,15 +8,14 @@ const choices = ["rock", "paper", "scissors"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay")
+const gameoverDisplay = document.getElementById("gameOver") /// Will be called upon at the end of the numOfGames (10)
 
 /// Game Logic
 function playGame(playerChoice) {
     if (numOfGames >= 10) { /// placeholder comment setting the number of games in the rps if it reaches 10 the game will stop.
         return;
     }
-
     const computerChoice = choices[Math.floor(Math.random() * 3)]; /// creating the bot to choose between the values rock, paper, scissors.
-    console.log(computerChoice);
     let result = "";
     if (playerChoice === computerChoice) {
         result = "It is a draw you have both selected...";
@@ -54,10 +53,14 @@ function playGame(playerChoice) {
             break;
         }
     }
-
+    numOfGames++ // To make sure the game ends at 10 choices. 
     playerDisplay.textContent = `USER: ${playerChoice}`;
     computerDisplay.textContent = `COMPUTER: ${computerChoice}`;
     resultDisplay.textContent = result;
+
+    if (numOfGames === 10) {
+        let gameOver= ""
+    }
 }
 
 
