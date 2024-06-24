@@ -1,14 +1,15 @@
 
 let playerScore = 0;
 let computerScore = 0;
-let numOfGames = 0
+let numOfGames = 0;
 const playerScore_span = document.getElementById("player-score");
 const computerScore_span = document.getElementById("computer-score");
 const choices = ["rock", "paper", "scissors"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
-const resultDisplay = document.getElementById("resultDisplay")
-const gameoverDisplay = document.getElementById("gameOver") /// Will be called upon at the end of the numOfGames (10)
+const resultDisplay = document.getElementById("resultDisplay");
+const gameoverDisplay = document.getElementById("gameOver"); /// Will be called upon at the end of the numOfGames (10)
+const resetgameButton = document.getElementById("reset");
 
 /// Game Logic
 function playGame(playerChoice) {
@@ -58,9 +59,38 @@ function playGame(playerChoice) {
     computerDisplay.textContent = `COMPUTER: ${computerChoice}`;
     resultDisplay.textContent = result;
 
+    /// This if statement will close the game after 10 tries determining the winner.
     if (numOfGames === 10) {
         let gameOver= ""
+        if (playerScore > computerScore) {
+            gameOver = "You have won this match of Rock, Paper, Scissors! Humbly take your victory.";
+            winningAudio.play();
+           
+        } else if (computerScore > playerScore) {
+            gameOver = "You have lost this match of Rock, Paper, Scissors... Don't feel down and dont accept defeat try again!";
+            losingAudio.play();
+        } else {
+            gameOver = "It's a draw. You and the computer have fought well and nothing can seperate you two... perhaps another game might?";
+        }
+        
+        gameoverDisplay.textContent = gameOver;
+        resetGame.style.display = "block";
     }
+}
+
+/// the function to reset the game after gameOver is called. 
+function resetGame() {
+    playerScore = 0;
+    computerScore = 0;
+    numOfGames = 0;
+
+    playerScore_span.textContent = playerScore;
+    computerScore_span.textContent = computerScore;
+    playerDisplay.textContent = "";
+    computerDisplay.textContent = "";
+    resultDisplay.textContent = "";
+    gameoverDisplay.textContent = "";
+    resetgameButton.style.display = "none";
 }
 
 
