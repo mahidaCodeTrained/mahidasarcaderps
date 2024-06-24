@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<!-- Header -->
+    <!-- Header -->
     <header>
         <h1 id="web-header">Mahida's Arcade</h1>
 
@@ -28,43 +28,44 @@
                 <!-- The html for the scoreboard where the score is displayed -->
                 <div id="player-name">User </div>
                 <span id="player-score">0</span>:<span id="computer-score">0</span>
-                <div id="computer-name"> Computer </div>    
+                <div id="computer-name"> Computer </div>
             </div>
 
             <!--The result display on who wins.-->
             <div id="playerDisplay">USER:</div>
-                <div id="computerDisplay">COMPUTER:</div>
-                <div id="resultDisplay"></div>
-            </div>
-        
+            <div id="computerDisplay">COMPUTER:</div>
+            <div id="resultDisplay"></div>
+        </div>
 
-       
-<!-- The game choices of rock, paper and scissors in the forms of buttons. -->
+        <!-- The game choices of rock, paper and scissors in the forms of buttons. -->
         <div id="choices">
-        <div id="rock-div">
-            <h3>Rock</h3>
-            <button onclick="playGame('rock')" id="selector" class="positionbox">
-                <i class="fa-solid fa-hand-back-fist" style="color: #ffea00;"></i>
-            </button>
-        </div>
+            <div id="rock-div">
+                <h3>Rock</h3>
+                <button onclick="playGame('rock')" id="selector" class="positionbox">
+                    <i class="fa-solid fa-hand-back-fist" style="color: #ffea00;"></i>
+                </button>
+            </div>
 
-        <div id="paper-div">
-            <h3>Paper</h3>
-            <button onclick= "playGame('paper')" id="selector" class="positionbox">
-                <i class="fa-solid fa-toilet-paper" style="color: #FFD43B;"></i>
+            <div id="paper-div">
+                <h3>Paper</h3>
+                <button onclick="playGame('paper')" id="selector" class="positionbox">
+                    <i class="fa-solid fa-toilet-paper" style="color: #FFD43B;"></i>
+                </button>
+            </div>
 
-            </button>
+            <div id="scissors-div">
+                <h3>Scissors</h3>
+                <button onclick="playGame('scissors')" id="selector" class="positionbox">
+                    <i class="fa-solid fa-scissors" style="color: #FFD43B;"></i>
+                </button>
+            </div>
         </div>
+        <div id="gameOver"> Game Over!
+            <button onclick="resetGame()"id="reset" style="display: none;">Reset The Game</button>
+        </div>
+   <div id="finalDisplay">
 
-        <div id="scissors-div">
-            <h3>Scissors</h3>
-            <button onclick="playGame('scissors')" id="selector" class="positionbox">
-                <i class="fa-solid fa-scissors" style="color: #FFD43B;"></i>
-            </button>
-        </div>
-    </div>
-    <p><em>What will you choose?</em></p>
-   
+   </div>
     </main>
 
     <footer>
@@ -72,7 +73,7 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/6cc20290e7.js" crossorigin="anonymous"></script>
-    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/script.js"></script>
 </body>
 
 </html>
