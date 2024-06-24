@@ -90,6 +90,7 @@ button {
 
 h3 {
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* CSS for scoreboard.*/
@@ -142,6 +143,10 @@ span {
     margin-top: 50px;
 }
 
+i {
+    font-size: 50px;
+}
+
 #rock-div,
 #paper-div,
 #scissors-div {
@@ -164,6 +169,42 @@ p {
     font-size: 30px;
 }
 
+#resultDisplay {
+    text-align: center;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+}
+
+#gameOver {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: monospace;
+    display: none;
+    padding: 35px;
+    
+}
+
+#finalDisplay {
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: slategrey;
+    padding: 35px;
+    font-size: 25px;
+    font-family: monospace;
+    display: none;
+
+}
+
+#reset {
+    color: aqua;
+    display: none;
+}
 footer {
     height: 100px;
     background-color: slategray;
