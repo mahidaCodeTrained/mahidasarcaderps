@@ -12,6 +12,7 @@ const resultDisplay = document.getElementById("resultDisplay");
 const finalDisplay = document.getElementById("finalDisplay");
 const gameoverDisplay = document.getElementById("gameOver"); /// Will be called upon at the end of the numOfGames (10)
 const resetgameButton = document.getElementById("reset");
+
 /// Game Logic
 function playGame(playerChoice) {
     if (numOfGames >= 10) { /// placeholder comment setting the number of games in the rps if it reaches 10 the game will stop.
@@ -63,16 +64,14 @@ function playGame(playerChoice) {
     if (numOfGames === 10) {
         if (playerScore > computerScore) {
             finalDisplay.textContent = "You have won this match of Rock, Paper, Scissors! Humbly take your victory.";
-            // Uncomment and define `winningAudio` if you have audio to play
-            // winningAudio.play();
+           /// Audio will be played if the player wins (happy audio)
         } else if (computerScore > playerScore) {
             finalDisplay.textContent = "You have lost this match of Rock, Paper, Scissors... Don't feel down and dont accept defeat try again!";
-            // Uncomment and define `losingAudio` if you have audio to play
-            // losingAudio.play();
+            /// Audio will be played if the computer wins (sad audio)
         } else {
             finalDisplay.textContent = "It's a draw. You and the computer have fought well and nothing can seperate you two... perhaps another game might?";
         }
-
+          /// An audio will be added like stalemate from chess
         if (numOfGames === 10) {
             gameoverDisplay.textContent = "Game Over!";
             gameoverDisplay.style.display = "block";
@@ -81,7 +80,7 @@ function playGame(playerChoice) {
         }
     }
 }
-/// the function to reset the game after gameOver is called.
+/// This function to reset the game after gameOver is called for the button.
 
 function resetGame() {
     playerScore = 0;
@@ -96,10 +95,4 @@ function resetGame() {
     gameoverDisplay.textContent = "";
     resetgameButton.style.display = "none";
 }
-
-
-
-
-
-
 
