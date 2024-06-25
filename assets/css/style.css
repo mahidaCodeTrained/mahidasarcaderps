@@ -203,9 +203,8 @@ p {
     color: aliceblue;
     text-align: center;
     font-family: monospace;
-    display: none;
     padding: 35px;
-    
+    display: none;    
 }
 
 #finalDisplay {
@@ -214,7 +213,6 @@ p {
     height: 100px;
     text-align: center;
     background-color: black;
-    padding: 35px;
     font-family: monospace;
     display: none;
 
@@ -252,13 +250,27 @@ p {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    background-color: white;
  }
+
+ #modalHeader {
+    font-family: monospace;
+    text-align: center;
+    background-color: limegreen;
+ }
+
+ .modalContent p {
+    font-family: monospace;
+    text-align: center;
+ } 
+ 
 
  .close {
       color: #aaa;
       float: right;
       font-size: 28px;
       font-weight: bold;
+      margin: 0;
  }
 
  .close:hover, .close:focus {
@@ -266,6 +278,8 @@ p {
     text-decoration: none;
     cursor: pointer;
  }
+
+
 
 
  footer {
