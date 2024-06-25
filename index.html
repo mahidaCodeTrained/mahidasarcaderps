@@ -14,7 +14,7 @@
     <!-- Header -->
     <header>
         <h1 id="web-header">Mahida's Arcade</h1>
-
+        <button id="gameRules">Rules</button>
     </header>
 
     <main>
@@ -60,14 +60,22 @@
                 </button>
             </div>
         </div>
-        <div id="gameOver"> Game Over!
-            <button onclick="resetGame()"id="reset" style="display: none;">Reset The Game</button>
+        <div id="gameOver"> Game Over! </div>
+        <div id="finalDisplay"></div>
+        <button onclick="resetGame()" id="reset">Have another go!</button>
+
+        <div id="rulesModal" class="modal">
+            <div class="modalContent">
+                <span class="close">&times;</span>
+                <h2>The rules for Mahida Arcade's Rock Paper Scissors!</h2>
+                <p>1. Rock always beats Scissors.</p>
+                <p>2. Paper always beats Rock.</p>
+                <p>3. Scissors always beats Paper.</p>
+                <p>4. The last rule is to have fun and try to beat the computer over to you!</p>
+            </div>
+
         </div>
-   <div id="finalDisplay">
-
-   </div>
     </main>
-
     <footer>
         This is the footer
     </footer>
