@@ -1,5 +1,9 @@
 
 ///javascript
+document.getElementById("gameRules").addEventListener("click",function() {
+document.getElementById("rulesModal").style.display = "block";
+});
+
 let playerScore = 0;
 let computerScore = 0;
 let numOfGames = 0;
@@ -12,6 +16,7 @@ const resultDisplay = document.getElementById("resultDisplay");
 const finalDisplay = document.getElementById("finalDisplay");
 const gameoverDisplay = document.getElementById("gameOver"); /// Will be called upon at the end of the numOfGames (10)
 const resetgameButton = document.getElementById("reset");
+const hiddenChoices = document.getElementById("choices")
 
 /// Game Logic
 function playGame(playerChoice) {
@@ -77,6 +82,8 @@ function playGame(playerChoice) {
             gameoverDisplay.style.display = "block";
             resetgameButton.style.display = "block";
             finalDisplay.style.display = "block";
+            hiddenChoices.style.display = "none"
+            
         }
     }
 }
@@ -94,5 +101,8 @@ function resetGame() {
     finalDisplay.textContent = "";
     gameoverDisplay.textContent = "";
     resetgameButton.style.display = "none";
+    hiddenChoices.style.display = "block";
+    finalDisplay.style.display = "none";
+    gameoverDisplay.style.display = "none";
 }
 
