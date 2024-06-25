@@ -63,17 +63,18 @@
         <div id="gameOver"> Game Over! </div>
         <div id="finalDisplay"></div>
         <button onclick="resetGame()" id="reset">Have another go!</button>
-
+        <button id="gameSummary">Detailed Summary</button>
+        
+        <!--A hidden modal that will contain the rules for the rule button in the header-->
         <div id="rulesModal" class="modal">
             <div class="modalContent">
                 <span class="close">&times;</span>
-                <h2>The rules for Mahida Arcade's Rock Paper Scissors!</h2>
-                <p>1. Rock always beats Scissors.</p>
-                <p>2. Paper always beats Rock.</p>
-                <p>3. Scissors always beats Paper.</p>
-                <p>4. The last rule is to have fun and try to beat the computer over to you!</p>
+                <h3 id="modalHeader">The rules for Mahida Arcade's Rock Paper Scissors!</h3>
+                <p class="modal-text">1. Rock always beats Scissors.</p>
+                <p class="modal-text">2. Paper always beats Rock.</p>
+                <p class="modal-text">3. Scissors always beats Paper.</p>
+                <p class="modal-text">4. The last rule is to have fun and try to beat the computer over to you!</p>
             </div>
-
         </div>
     </main>
     <footer>
