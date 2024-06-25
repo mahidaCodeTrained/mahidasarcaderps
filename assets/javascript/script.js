@@ -4,6 +4,17 @@ document.getElementById("gameRules").addEventListener("click",function() {
 document.getElementById("rulesModal").style.display = "block";
 });
 
+document.querySelector(".close").addEventListener("click", function(){
+document.getElementById("rulesModal").style.display = "none";
+});
+
+window.addEventListener("click", function(event){
+    if (event.target == document.getElementById("rulesModal")) {
+        document.getElementById("rulesModal").style.display = "none";
+    }
+
+});
+
 let playerScore = 0;
 let computerScore = 0;
 let numOfGames = 0;
@@ -30,7 +41,7 @@ function playGame(playerChoice) {
     } else {
         switch (playerChoice) { /// If/else statement showcasing what happens if player chooses an option against the computer.
             case "rock":
-                result = (computerChoice === "scissors") ? "You have won!" : "You have lost!";
+                result = (computerChoice === "scissors") ? "You have won this round!" : "You have lost this round!";
                 if (computerChoice === "scissors") { /// if player wins the scoreboard increases by 1 in players favour.
                     playerScore++;
                     playerScore_span.textContent = playerScore;
@@ -40,7 +51,7 @@ function playGame(playerChoice) {
                 }
                 break;
             case "paper":
-                result = (computerChoice === "rock") ? "You have won!" : "You have lost!";
+                result = (computerChoice === "rock") ? "You have won this round!" : "You have lost this round!";
                 if (computerChoice === "rock") {
                     playerScore++;
                     playerScore_span.textContent = playerScore;
@@ -50,7 +61,7 @@ function playGame(playerChoice) {
                 }
                 break;
             case "scissors":
-                result = (computerChoice === "paper") ? "You have won!" : "You have lost!";
+                result = (computerChoice === "paper") ? "You have won this round!" : "You have lost this round!";
                 if (computerChoice === "paper") {
                     playerScore++;
                     playerScore_span.textContent = playerScore;
