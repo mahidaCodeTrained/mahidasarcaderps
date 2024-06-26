@@ -24,7 +24,7 @@ This page contains a single webpage called :
 </details>
 
 ## Mockup Screenshots
-
+- In this section of this file the mockup screenshots of this project will be displayed with how it looks on mobile, tablet and a desktop.
 
 
 ## Wireframes
@@ -44,7 +44,7 @@ This page contains a single webpage called :
 ### Desktop Wireframes
 | index.html |  
 | :---: | 
-| ![screenshot](documentation/wireframes/wireframe.desktop.jpg) | 
+| ![screenshot](documentation/wireframes/wireframe.desktop.jpg) |
 
 - The structure and look of the website has been significantly improved on from the project planning inception in these wireframes to now at the deployed site. 
 - There were many additions that can be seen in the live site from these with one notably being the user and computer display. Which showcases what both the player and computer chose to give better ux and showcase the projects functionality. 
