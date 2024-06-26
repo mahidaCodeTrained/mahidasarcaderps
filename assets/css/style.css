@@ -110,6 +110,8 @@ button {
 h3 {
     text-align: center;
     text-transform: uppercase;
+    font-family: monospace;
+    font-size: 18px;
 }
 
 /* CSS for scoreboard.*/
@@ -287,6 +289,7 @@ p {
     font-family: monospace;
     text-align: center;
     background-color: limegreen;
+    height: 40px;
  }
 
  .modalContent p {
@@ -333,6 +336,24 @@ p {
     font-size: 40px;
  }
 
+
+ /* CSS for the videos.*/
+
+ #winVideo {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: none;
+ }
+
+ #loseVideo {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    display: none;
+ }
 
 
 
