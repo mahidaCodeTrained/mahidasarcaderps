@@ -1,20 +1,25 @@
-
-///javascript
-document.getElementById("gameRules").addEventListener("click",function() {
-document.getElementById("rulesModal").style.display = "block";
+///javascript for button elements and modal.
+document.getElementById("gameRules").addEventListener("click", function () {
+    document.getElementById("rulesModal").style.display = "block";
 });
-
-document.querySelector(".close").addEventListener("click", function(){
-document.getElementById("rulesModal").style.display = "none";
+/// this will close the rules modal if it's clicked.
+document.querySelector(".close").addEventListener("click", function () {
+    document.getElementById("rulesModal").style.display = "none";
 });
-
-window.addEventListener("click", function(event){
+/// this will close the modal if anywhere in the window is clicked.
+window.addEventListener("click", function (event) {
     if (event.target == document.getElementById("rulesModal")) {
         document.getElementById("rulesModal").style.display = "none";
     }
 
 });
 
+document.getElementById("gameSummary").addEventListener("click", function(){
+    document.getElementById("summaryModal").style.display = "block";
+})
+
+
+/// game javascript
 let playerScore = 0;
 let computerScore = 0;
 let numOfGames = 0;
@@ -28,6 +33,7 @@ const finalDisplay = document.getElementById("finalDisplay");
 const gameoverDisplay = document.getElementById("gameOver"); /// Will be called upon at the end of the numOfGames (10)
 const resetgameButton = document.getElementById("reset");
 const hiddenChoices = document.getElementById("choices")
+const summary = document.getElementById("gameSummary")
 
 /// Game Logic
 function playGame(playerChoice) {
@@ -80,21 +86,21 @@ function playGame(playerChoice) {
     if (numOfGames === 10) {
         if (playerScore > computerScore) {
             finalDisplay.textContent = "You have won this match of Rock, Paper, Scissors! Humbly take your victory.";
-           /// Audio will be played if the player wins (happy audio)
+            /// Audio will be played if the player wins (happy audio)
         } else if (computerScore > playerScore) {
             finalDisplay.textContent = "You have lost this match of Rock, Paper, Scissors... Don't feel down and dont accept defeat try again!";
             /// Audio will be played if the computer wins (sad audio)
         } else {
             finalDisplay.textContent = "It's a draw. You and the computer have fought well and nothing can seperate you two... perhaps another game might?";
         }
-          /// An audio will be added like stalemate from chess
+        /// An audio will be added like stalemate from chess
         if (numOfGames === 10) {
             gameoverDisplay.textContent = "Game Over!";
             gameoverDisplay.style.display = "block";
             resetgameButton.style.display = "block";
             finalDisplay.style.display = "block";
             hiddenChoices.style.display = "none"
-            
+            summary.style.display = "block";
         }
     }
 }
@@ -116,4 +122,12 @@ function resetGame() {
     finalDisplay.style.display = "none";
     gameoverDisplay.style.display = "none";
 }
+
+
+
+
+
+
+
+
 
