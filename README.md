@@ -112,7 +112,7 @@ I used the website [coolers.co](https://coolors.co/) to generate my color pallet
 <details>
 <summary>Click this for a Coolers screenshot</summary>
   
-![screenshot](documentation/ux/coolersux.jpg)
+![screenshot](documentation/ux/coolersux.png)
 
 </details>
 
