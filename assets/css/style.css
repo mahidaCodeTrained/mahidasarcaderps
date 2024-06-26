@@ -219,14 +219,31 @@ p {
 }
 
 #reset {
-    color: aqua;
+    color: white;
     display: block;
     text-align: center;
     width: 25%;
     height: 100px;
-    margin-top: 0;
-    margin-left: 55%;
+    margin: 0;
     display: none;
+    font-size: 16px;
+}
+
+#gameSummary {
+    width: 25%;
+    height: 100px;
+    margin: 0;
+    display: none;
+    font-size: 16px;
+    color: white;
+}
+
+#interact-button {
+    margin: 0;
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
 }
 
  /* Modal styling */  
