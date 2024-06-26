@@ -18,6 +18,16 @@ document.getElementById("gameSummary").addEventListener("click", function(){
     document.getElementById("summaryModal").style.display = "block";
 })
 
+document.querySelector(".closeSummary-modal").addEventListener("click", function(){
+    document.getElementById("summaryModal").style.display = "none";
+})
+
+window.addEventListener("click", function(event){
+    if (event.target == document.getElementById("summaryModal")) {
+        document.getElementById("summaryModal").style.display = "none";
+    }
+})
+
 
 /// game javascript
 let playerScore = 0;
@@ -121,6 +131,7 @@ function resetGame() {
     hiddenChoices.style.display = "block";
     finalDisplay.style.display = "none";
     gameoverDisplay.style.display = "none";
+    summary.style.display = "none";
 }
 
 
