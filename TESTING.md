@@ -36,7 +36,7 @@ Return to the [README.md](README.md) file.
 
 | Page | W3C URL | Screenshot | Notes |
 | :---: | :---: | :---: | :---: |
-| index.html | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmahidacodetrained.github.io%2Frockpaperscissors%2F) | ![screenshot](documentation/testing/htmlvalidator.jpg) | Passed all checks |
+| index.html | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmahidacodetrained.github.io%2Frockpaperscissors%2F) | ![screenshot](documentation/testing/htmlvalidator.png) | Passed all checks |
 
 
 ### CSS
@@ -113,3 +113,4 @@ Return to the [README.md](README.md) file.
 |The user can click on the reset button and the entire game will reset from 0|Pass|
 
 ## Bugs
+- I've encountered no bugs in this live site. It is working and performing as expected with 100% efficiency. The site before it's "final version" had a bug where both hidden videos would play and overlap on top of eachother when the choices buttons were spammed excessively during the transition for the object itself to become hidden via JavaScript.
