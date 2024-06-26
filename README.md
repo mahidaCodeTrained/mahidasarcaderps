@@ -28,23 +28,27 @@ This page contains a single webpage called :
 
 
 ## Wireframes
-
+- The wireframes for this project were created before the projects inception. 
+- They are a rough blueprint on how the site should look with the elements and text-arrows pointing to what will be included within the space.
 
 ### Mobile Wireframes
 | index.html |
-| :---: | :---: |
-| ![screenshot]() | ![screenshot]() | 
+| :---: | 
+| ![screenshot](documentation/wireframes/wireframe.mobile.jpg) |
 
 ### Tablet Wireframes
 | index.html |
-| :---: | :---: |
-| ![screenshot]() | ![screenshot]() | 
-
+| :---: | 
+| ![screenshot](documentation/wireframes/wireframe.tablet.jpg) | 
 
 ### Desktop Wireframes
 | index.html |  
-| :---: | :---: |
-| ![screenshot]() | ![screenshot]() |
+| :---: | 
+| ![screenshot](documentation/wireframes/wireframe.desktop.jpg) | 
+
+- The structure and look of the website has been significantly improved on from the project planning inception in these wireframes to now at the deployed site. 
+- There were many additions that can be seen in the live site from these with one notably being the user and computer display. Which showcases what both the player and computer chose to give better ux and showcase the projects functionality. 
+
 
 ## Features
 
@@ -55,15 +59,12 @@ This page contains a single webpage called :
 - I would like to add a home page that is detailed and has it's own identity so it doesn't feel like just any Rock Paper Scissors game.
 
 
-
-
 ## User Stories
 1. As a new user, I want to be able to play a functioning game of Rock, Paper Scissors.
 2. As a new user, I want to know the rules behind playing Rock Paper Scissors
 3. As a new user, I want to have a chance to replay the game if I wanted to on the site.
 4. As a new user, I want to know why I won and why the computer has lost with our options displayed.
-5. As a new user, I want to have a summary so I can check exactly what rounds I won or lost or what rounds were drawn?
-6. As a new user, I want there to be a difference in the display of the site whether or not I win or lose.
+5. As a new user, I want there to be a difference in the display of the site whether or not I win or lose.
 
 
 
@@ -84,10 +85,11 @@ This page contains a single webpage called :
 
 - `green` this color was specifically used to create a division between the player/user and the computer. The color green is normally is signified in motifs of self and ownership. This provided a stark contrast between the other color selected to signify the other end of the division; the computer.
 
-- `red` this color as stated signifies the divison between the player and computer. The color red normally is showcased as a color of opposition, uncertainty and danger which is why it was used to create this battle ground visage that can be seen in the scoreboard with the player used having the color green on their side whilst the computer used a blood red showcasing it's an enemy that you need to defeat in "Mahida's Arcade Rock, Paper, Scissors.".
+- `#b20000` this color as stated signifies the divison between the player and computer. The color red normally is showcased as a color of opposition, uncertainty and danger which is why it was used to create this battle ground visage that can be seen in the scoreboard with the player used having the color green on their side whilst the computer used a blood red showcasing it's an enemy that you need to defeat in "Mahida's Arcade Rock, Paper, Scissors.".
 
+- `darkgrey` this color was also used in the site to give a monochrome styling to the page as sometimes every element being just black can be quite unengaging. This color was therefore used to counter this possibility and give off a more creative look. 
 
-I used the website [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-000000) to generate the color pallete.
+- `cyan` was used as a color in the box-shadow. The reason for using this color was that it's simply very out there against all of the colors that are used in the site. It attempts to catch the eye of the user and be transportitive to a very arcade like scene. 
 
 <details>
 <summary>Click this for a Coolers screenshot</summary>
@@ -98,10 +100,11 @@ I used the website [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-0
 
 ### Typography 
 
-- This project uses only one font and that is "monospace". This was a creative decision to give the screen once again a "program-esque" look to it. Additionally, it helps sell the idea of "Mahida's Arcade" as the font itself feels extremely arcade like due to the use of spacing between the letters akin to an old school game or a computer terminal. 
+- This project uses only one font primarily and that is "monospace". This was a creative decision to give the screen once again a "program-esque" look to it. Additionally, it helps sell the idea of "Mahida's Arcade" as the font itself feels extremely arcade like due to the use of spacing between the letters akin to an old school game or a computer terminal. 
 - In additon, the font is extremely clear to read as the spacing gives letters much more room to breathe allowing users to better follow the text content in a quicker more sophisticated manner.
 
-- Furthermore, 
+- However, there is another font that can be seen although it can only be seen once in the header for "Mahida's Arcade". This font is Georgia, 'Times New Roman', Times, serif;. 
+This font was chosen as it looked big and it made the letters really stand out with the width of them.
 
 
 ## Tools & Technologies 
@@ -111,18 +114,44 @@ I used the website [coolors.co](https://coolors.co/7f0ffb-c27b6f-9ecffa-fafafa-0
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) used to create the functionality of the site.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used to give the website a responsive design.
 - [Git](https://git-scm.com/) used to control the site via "git add, git commit -m, git push" and etc.
-- [GitHub](https://github.com/) was used to store my code and acess my project repository. 
-- [GitHub Pages](https://pages.github.com/) was used to deploy my site and make it live.
-- [Favicon.cc](https://www.favicon.cc/) was used to create the site favicon.
+- [GitHub](https://github.com/) was used to store my code and access my project repository through the web. 
+- [GitHub Pages](https://pages.github.com/) was used to deploy my site and make it live for everybody to see.
+- [Favicon.cc](https://www.favicon.cc/) was used to create the sites favicon.
 - [VScode](https://code.visualstudio.com/) used as an IDE through GitPod.
-- [Gitpod](https://www.gitpod.io/) used as the IDE to work and code the site.
-- [Google Fonts](https://fonts.google.com/) used to import fonts into the site.
-- [ezgif](https://ezgif.com/optiwebp) used to compress images and videos to small file sizes.
+- [Gitpod](https://www.gitpod.io/) used as the IDE to work and code the site. Gitpod Enterprise was used.
 
 
 ## Testing
  
  Please refer to the [TESTING.md](TESTING.md) file to see the testing of the website.
+
+ ### Deployment
+
+- This website was deployed via GitHub's, GitHub Pages. 
+- For anybody that is viewing this README.md file and is looking to find out how to deploy the site then please follow these instructions.
+- As soon as you are within the [GitHub repository](https://github.com/mahidaCodeTrained/rockpaperscissors) please go through the navigation tab until you come across the settings for the repository. 
+- Within the settings there is a segment that is called Pages.
+- Once you locate and click on "Pages", you must selected the main branch under the build and deployment for the site. 
+- As soon as you have clicked these and then save, the site will be deployed via GitHub Pages. A simple refresh of the page should showcase that GitHub pages is working in the deployment of your site. 
+
+-  The live page to this project can be found [here](https://mahidacodetrained.github.io/rockpaperscissors/)
+
+### Local Deployment 
+
+- This project can be saved and stored into your local device via forking or cloning.
+
+### Cloning 
+
+This repository can be cloned by following these steps.
+
+1. Go to the [GitHub repository](https://github.com/mahidaCodeTrained/rockpaperscissors) for the project.
+2. There should be a code button telling you if you would like to clone this project. It will be next to the add files button.
+3. It should tell you if you would like to clone via. HTTPS, SSH or a GitHub CLI, once you have decided what you want to use to clone the repository then click the copy button to copy the url of the project.
+4. Open Git Bash or a Terminal
+5. Once inside, change the working directory to the one where you want the cloned directory that you have copied from the GitHub repository.
+6. In the IDE terminal, you can now clone my rock paper scissors repository by inputting this command:
+   - `git clone https://github.com/mahidaCodeTrained/rockpaperscissors`
+
 
 ## Credits 
 
