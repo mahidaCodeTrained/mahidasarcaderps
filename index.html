@@ -62,7 +62,8 @@
         </div>
         <div id="gameOver"> Game Over! </div>
         <div id="finalDisplay"></div>
-
+        <video id="winVideo" src="assets/videos/10117948-hd_1920_1080_30fps.mp4" autoplay muted loop controls></video>
+        <video id="loseVideo" src="assets/videos/1449846-hd_1906_1080_28fps.mp4" autoplay muted controls loop></video>
         <div id="interact-button">
             <button onclick="resetGame()" id="reset">Have another go!</button>
             <button id="gameSummary">Detailed Summary</button>
@@ -75,7 +76,8 @@
                 <p class="modal-text">1. Rock always beats Scissors.</p>
                 <p class="modal-text">2. Paper always beats Rock.</p>
                 <p class="modal-text">3. Scissors always beats Paper.</p>
-                <p class="modal-text">4. The last rule is to have fun and try to beat the computer over to you!</p>
+                <p class="modal-text">4. If both you the player and the computer select the same option then it's a draw no points are awarded.</p>
+                <p class="modal-text">5. The last rule is to have fun and try to beat the computer over to you!</p>
             </div>
         </div>
 
