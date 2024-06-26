@@ -25,6 +25,9 @@ This page contains a single webpage called :
 
 ## Mockup Screenshots
 - In this section of this file the mockup screenshots of this project will be displayed with how it looks on mobile, tablet and a desktop.
+- I used the "Am I Responsive?" website which is a great website to display how your site will look like on all devices as it gives a great template of which you can move and screenshot the images of your displayed project. 
+
+ ![screenshot](documentation/mockups/index.htmlpic.png)  ![screenshot](documentation/mockups/locations.htmlpic.png) ![screenshot](documentation/mockups/gallery.htmlpic.png)
 
 
 ## Wireframes
@@ -69,7 +72,6 @@ This page contains a single webpage called :
 
 
 ## UX
-[Include information about the user experience aspects of your project]
 - The design for this project started through wireframing and viewing material that is focused on making interactive JavaScript projects. 
 - The wireframing of this project, helped me create the base structure of the site with the header being everpresent and the footer element to give the website a professional look.
 - The stylistic apporach to this project was planned ahead of time before the projects inception period. The goal was to make a program-esque aestethic with the use of color and very specifically the font used for the project.
@@ -91,10 +93,15 @@ This page contains a single webpage called :
 
 - `cyan` was used as a color in the box-shadow. The reason for using this color was that it's simply very out there against all of the colors that are used in the site. It attempts to catch the eye of the user and be transportitive to a very arcade like scene. 
 
+- `white` was used for certain text to give better visiblity to them in certain colored backgrounds where normally black text isnt suitable. In addition, the color white was used in the final display and the game over screen that appears when the number of games reaches it's maximum.
+
+- `wheat` was used to give color to the header "Mahida's Arcade". 
+
+I used the website [coolers.co](https://coolors.co/) to generate my color pallete for this project.
 <details>
 <summary>Click this for a Coolers screenshot</summary>
   
-![screenshot](documentation/ux/coolersscreenshot.png)
+![screenshot](documentation/ux/coolersux.jpg)
 
 </details>
 
@@ -112,7 +119,7 @@ This font was chosen as it looked big and it made the letters really stand out w
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the content of the site.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used to style the html that it within the site.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) used to create the functionality of the site.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used to give the website a responsive design.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used to give the website a responsive design for the scoreboard.
 - [Git](https://git-scm.com/) used to control the site via "git add, git commit -m, git push" and etc.
 - [GitHub](https://github.com/) was used to store my code and access my project repository through the web. 
 - [GitHub Pages](https://pages.github.com/) was used to deploy my site and make it live for everybody to see.
@@ -125,7 +132,7 @@ This font was chosen as it looked big and it made the letters really stand out w
  
  Please refer to the [TESTING.md](TESTING.md) file to see the testing of the website.
 
- ### Deployment
+ ## Deployment
 
 - This website was deployed via GitHub's, GitHub Pages. 
 - For anybody that is viewing this README.md file and is looking to find out how to deploy the site then please follow these instructions.
@@ -153,8 +160,16 @@ This repository can be cloned by following these steps.
    - `git clone https://github.com/mahidaCodeTrained/rockpaperscissors`
 
 
-## Credits 
+## Credits
+- This will credit everything that I used for content and code in this project about torii gates.
 
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Font Awesome](https://fontawesome.com/) | index.html | helped me get the logos for the game choices + logos for the footer |
+| [Pexels](https://www.pexels.com/) | index.html, | "This site gave me great videos to use in the website." |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp) | gallery.html | taught me how to make a parralax |
+| [YouTube](https://www.youtube.com/watch?v=jaVNP3nIAv0) | index.html, | This video gave me an idea on how to set up a stylistic scoreboard for a rock paper scissors game. |
+| [Alan Bushell's GitHub Repo](https://github.com/Alan-Bushell/belfast-auto-repairs) | README.md, TESTING.md | This gave me alot of guidance on how to use markdown language and gave me a feel for the structure of the README.md file. |
 
 ##  Acknowledgements
 - I would like to thank my Code Institute mentor [Alan Bushell] (https://github.com/Alan-Bushell)
