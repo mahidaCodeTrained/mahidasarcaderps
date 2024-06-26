@@ -20,6 +20,8 @@ Return to the [README.md](README.md) file.
 
 - [User Story Testing](#user-story-testing)
 
+- [Manual Testing](#manual-testing)
+
 - [Bugs](#bugs)
 
 </details>
@@ -75,7 +77,9 @@ Return to the [README.md](README.md) file.
 
 
 ## Lighthouse 
-
+| Page | Mobile | Desktop | Notes |
+| :---: | :---: | :---: | :---: |
+| index.html | ![screenshot](documentation/lighthouse/mobilelighthouse.png) | ![screenshot](documentation/lighthouse/desktoplighthouse.png) | The site is running absolutely perfectly with 100's across the board. This is even with high quality videos added into the file. The accessibility is 100 meaning it will provide a user experience that is not difficult but clear. |
 
 
 ## User Story Testing 
@@ -88,3 +92,24 @@ Return to the [README.md](README.md) file.
 | As a new user, I want to know why I won and why the computer has lost with our options displayed.| ![screenshot](documentation/features/losewin.userstory.png) |
 | As a new user, I want there to be a difference in the display of the site whether or not I win or lose. | ![screenshot](documentation/features/win.userstory.png) ![screenshot](documentation/features/lose.userstory.png) |
 | As a new user, I want to clearly see what my score is against the computers score.| ![screenshot](documentation/features/score.userstory.png) |
+
+## Manual Testing
+
+| Test | Result |
+|--|--|
+|When rock is selected then the player choice shows rock.| Pass |
+|When paper is selected the player choice shows paper|Pass|
+|When scissors is selected the player choice shows scissors|Pass|
+|The rules modal in the header will close once you click the X on it's screen|Pass|
+|The rules modal closes when the user clicks outside of the screen|Pass|
+|When the game starts the computer and players options are presented correctly.|Pass|
+|When the game starts the scoreboard works and increments the score by 1 depending on whether you win or lose|Pass|
+|When the user wins the winning video is presented and no longer hidden|Pass|
+|When the user loses the losing video is presented and no longer hidden|Pass|
+|The videos are all on mute|Pass|
+|The correct video is presented and dont overlap.|Pass|
+|When the user clicks on the reset button it scrolls up to the top of the page ready for another match.|Pass|
+|When the user clicks on the reset button the video elements are hidden and the choices are brought back.|Pass|
+|The user can click on the reset button and the entire game will reset from 0|Pass|
+
+## Bugs
