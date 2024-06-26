@@ -74,7 +74,7 @@ document.getElementById("gameRules").addEventListener("click", function () {
     break;
     }
     }
-    numOfGames++ // To make sure the game ends at 10 choices.
+    numOfGames++; // To make sure the game ends at 10 choices.
     playerDisplay.textContent = `USER: ${playerChoice}`;
     computerDisplay.textContent = `COMPUTER: ${computerChoice}`;
     resultDisplay.textContent = result;
@@ -98,7 +98,7 @@ document.getElementById("gameRules").addEventListener("click", function () {
     gameoverDisplay.style.display = "block";
     resetgameButton.style.display = "block";
     finalDisplay.style.display = "block";
-    hiddenChoices.style.display = "none"
+    hiddenChoices.style.display = "none";
     }
     }
     }
@@ -120,9 +120,9 @@ document.getElementById("gameRules").addEventListener("click", function () {
     finalDisplay.style.display = "none";
     gameoverDisplay.style.display = "none";
     winVideo.style.display = "none";
-    winVideo.muted = true /// This ensures that the video is muted otherwise the audio is played despite if you reset it.
+    winVideo.muted = true; /// This ensures that the video is muted otherwise the audio is played despite if you reset it.
     loseVideo.style.display = "none";
-    loseVideo.muted = true
+    loseVideo.muted = true;
     
     window.scrollTo({ top: 0, behavior: 'smooth' }); /// This fixes the issue of the game not scrolling back up when you scroll down to click on the reset button.
     /// This is mainly used just to give the mobile site better UX as it stayed on the bottom when you clicked reset.
