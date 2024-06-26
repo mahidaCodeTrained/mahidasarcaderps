@@ -161,7 +161,7 @@ This repository can be cloned by following these steps.
 
 
 ## Credits
-- This will credit everything that I used for content and code in this project about torii gates.
+- This will credit everything that I used for creating and having the idea behind tackling this project which is to build a Rock Paper Scissors Game.
 
 | Source | Location | Notes |
 | --- | --- | --- |
