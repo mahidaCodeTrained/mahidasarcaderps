@@ -28,7 +28,6 @@ window.addEventListener("click", function(event){
     }
 })
 
-
 /// game javascript
 let playerScore = 0;
 let computerScore = 0;
@@ -45,6 +44,9 @@ const resetgameButton = document.getElementById("reset");
 const hiddenChoices = document.getElementById("choices");
 const summary = document.getElementById("gameSummary");
 const winVideo = document.getElementById("winVideo");
+const loseVideo = document.getElementById("loseVideo");
+
+
 /// Game Logic
 function playGame(playerChoice) {
     if (numOfGames >= 10) { /// placeholder comment setting the number of games in the rps if it reaches 10 the game will stop.
@@ -100,6 +102,7 @@ function playGame(playerChoice) {
             /// Audio will be played if the player wins (happy audio)
         } else if (computerScore > playerScore) {
             finalDisplay.textContent = "You have lost this match of Rock, Paper, Scissors... Don't feel down and dont accept defeat try again!";
+            loseVideo.style.display = "block";
             /// Audio will be played if the computer wins (sad audio)
         } else {
             finalDisplay.textContent = "It's a draw. You and the computer have fought well and nothing can seperate you two... perhaps another game might?";
@@ -134,6 +137,9 @@ function resetGame() {
     gameoverDisplay.style.display = "none";
     summary.style.display = "none";
     winVideo.style.display = "none";
+    winVideo.muted = true /// This ensures that the video is muted otherwise the audio is played despite if you reset it.
+    loseVideo.style.display = "none";
+    loseVideo.muted = true
 }
 
 
