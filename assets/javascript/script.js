@@ -140,6 +140,9 @@ function resetGame() {
     winVideo.muted = true /// This ensures that the video is muted otherwise the audio is played despite if you reset it.
     loseVideo.style.display = "none";
     loseVideo.muted = true
+
+    window.scrollTo({ top: 0, behavior: 'smooth' }); /// This fixes the issue of the game not scrolling back up when you scroll down to click on the reset button.
+    /// This is mainly used just to give the mobile site better UX as it stayed on the bottom when you clicked reset.
 }
 
 
