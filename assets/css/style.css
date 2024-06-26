@@ -181,6 +181,7 @@ i {
 #scissors-div {
     width: 30%;
     display: inline-block;
+    text-decoration: underline;
 }
 
 p {
@@ -333,11 +334,17 @@ p {
     justify-content: center;
     padding: 20px;
     justify-content: space-evenly;
+
 }
 
 #networks li {
     list-style-type: none;
     cursor: pointer;
+}
+
+i:hover {
+    background-color: green;
+    transition: 0.5s;
 }
 
 @media screen and (min-width: 992px) {
@@ -356,5 +363,13 @@ p {
     #computer-name {
         left: 1050px;
         width: 30%;
+    }
+
+    .game-screen p {
+        font-size: 20px;
+    }
+
+    .game-screen h2 {
+        font-size: 25px;
     }
 }
