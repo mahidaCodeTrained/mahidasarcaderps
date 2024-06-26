@@ -42,9 +42,9 @@ const resultDisplay = document.getElementById("resultDisplay");
 const finalDisplay = document.getElementById("finalDisplay");
 const gameoverDisplay = document.getElementById("gameOver"); /// Will be called upon at the end of the numOfGames (10)
 const resetgameButton = document.getElementById("reset");
-const hiddenChoices = document.getElementById("choices")
-const summary = document.getElementById("gameSummary")
-
+const hiddenChoices = document.getElementById("choices");
+const summary = document.getElementById("gameSummary");
+const winVideo = document.getElementById("winVideo");
 /// Game Logic
 function playGame(playerChoice) {
     if (numOfGames >= 10) { /// placeholder comment setting the number of games in the rps if it reaches 10 the game will stop.
@@ -96,6 +96,7 @@ function playGame(playerChoice) {
     if (numOfGames === 10) {
         if (playerScore > computerScore) {
             finalDisplay.textContent = "You have won this match of Rock, Paper, Scissors! Humbly take your victory.";
+            winVideo.style.display = "block";
             /// Audio will be played if the player wins (happy audio)
         } else if (computerScore > playerScore) {
             finalDisplay.textContent = "You have lost this match of Rock, Paper, Scissors... Don't feel down and dont accept defeat try again!";
@@ -132,6 +133,7 @@ function resetGame() {
     finalDisplay.style.display = "none";
     gameoverDisplay.style.display = "none";
     summary.style.display = "none";
+    winVideo.style.display = "none";
 }
 
 
