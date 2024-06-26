@@ -115,25 +115,28 @@ h3 {
 /* CSS for scoreboard.*/
 
 .game-score {
-    border: 2px solid black;
-    width: 50%;
-    height: 40%;
-    align-items: center;
-    position: relative;
-    left: 75px;
-    margin-top: 20px;
-    background-color: aliceblue;
-    text-align: center;
+   border: 2px solid black;
+   width: 100%;
+   height: 40%;
+   align-items: center;
+   margin-top: 20px;
+   background-color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
 }
 
 #player-name {
     background-color: darkgreen;
     width: 40%;
-    position: relative;
     top: 58px;
     right: 70px;
     text-align: center;
     font-family: monospace;
+    color: white;
+    font-size: 20px;
 
 }
 
@@ -141,11 +144,12 @@ h3 {
 #computer-name {
     background-color: red;
     width: 50%;
-    position: relative;
     top: -47px;
     left: 105%;
     text-align: center;
     font-family: monospace;
+    color: white;
+    font-size: 20px;
 }
 
 span {
@@ -341,8 +345,6 @@ p {
 @media screen and (min-width: 992px) {
 
     .game-score {
-        position: relative;
-        left: 25%;
         text-align: center;
 
     }
