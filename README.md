@@ -37,17 +37,17 @@ This page contains a single webpage called :
 ### Mobile Wireframes
 | index.html |
 | :---: | 
-| ![screenshot](documentation/wireframes/wireframe.mobile.jpg) |
+| ![screenshot](documentation/wireframes/wireframe.mobile.png) |
 
 ### Tablet Wireframes
 | index.html |
 | :---: | 
-| ![screenshot](documentation/wireframes/wireframe.tablet.jpg) | 
+| ![screenshot](documentation/wireframes/wireframe.tablet.png) | 
 
 ### Desktop Wireframes
 | index.html |  
 | :---: | 
-| ![screenshot](documentation/wireframes/wireframe.desktop.jpg) |
+| ![screenshot](documentation/wireframes/wireframe.desktop.png) |
 
 - The structure and look of the website has been significantly improved on from the project planning inception in these wireframes to now at the deployed site. 
 - There were many additions that can be seen in the live site from these with one notably being the user and computer display. Which showcases what both the player and computer chose to give better ux and showcase the projects functionality. 
