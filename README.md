@@ -27,7 +27,7 @@ This page contains a single webpage called :
 - In this section of this file the mockup screenshots of this project will be displayed with how it looks on mobile, tablet and a desktop.
 - I used the "Am I Responsive?" website which is a great website to display how your site will look like on all devices as it gives a great template of which you can move and screenshot the images of your displayed project. 
 
- ![screenshot](documentation/mockups/mockupscreen1.jpg)  ![screenshot](documentation/mockups/mockupscreen2.jpg) 
+ ![screenshot](documentation/mockups/mockupscreen1.png)  ![screenshot](documentation/mockups/mockupscreen2.png) 
 
 
 ## Wireframes
@@ -58,13 +58,13 @@ This page contains a single webpage called :
 
 | Feature | Description | Screenshot |
 | :---: | :---: | :---: |
-| **Rules Button** | There is a rules button added in the header which is clear for everybody to see as many view websites from top down. | ![screenshot](documentation/features/rules.userstory.jpg) |
-| **Rules Hover** | The rules button when hovered over displays a green background color indiciating that it's clickable. | ![screenshot](documentation/features/ruleshover.feature.jpg) |
-| **Video Controls** | The video elements have controls where you can mute audio and lower the volume | ![screenshot](documentation/features/controls.feature.jpg) |
-| **Footer Links** | The footer element has clickable links that are logos from FontAwesome | ![screenshot](documentation/features/footerlogos.feature.jpg) |
-| **Reset Button** | A button that allows you to reset the entire game from zero and play again. | ![screenshot](documentation/features/reset.featurwe.jpg) |
-| **Incrementing Scoreboard** | The scoreboard self increments after the players choice whether or not they win or lose. | ![screenshot](documentation/features/incrementingscoreboard.fwature.jpg) |
-| **Hidden Elements** | This site takes advantage of hiding elements when you complete the number of Games put within the JavaScript. It hides elements and displays those which were hidden to have better use of space for the user. | ![screenshot](documentation/features/hiddenelements.feature.jpg) |
+| **Rules Button** | There is a rules button added in the header which is clear for everybody to see as many view websites from top down. | ![screenshot](documentation/features/rules.userstory.png) |
+| **Rules Hover** | The rules button when hovered over displays a green background color indiciating that it's clickable. | ![screenshot](documentation/features/ruleshover.feature.png) |
+| **Video Controls** | The video elements have controls where you can mute audio and lower the volume | ![screenshot](documentation/features/controls.feature.png) |
+| **Footer Links** | The footer element has clickable links that are logos from FontAwesome | ![screenshot](documentation/features/footerlogos.feature.png) |
+| **Reset Button** | A button that allows you to reset the entire game from zero and play again. | ![screenshot](documentation/features/reset.featurwe.png) |
+| **Incrementing Scoreboard** | The scoreboard self increments after the players choice whether or not they win or lose. | ![screenshot](documentation/features/incrementingscoreboard.fwature.png) |
+| **Hidden Elements** | This site takes advantage of hiding elements when you complete the number of Games put within the JavaScript. It hides elements and displays those which were hidden to have better use of space for the user. | ![screenshot](documentation/features/hiddenelements.feature.png) |
 
 ### Future Features
 
