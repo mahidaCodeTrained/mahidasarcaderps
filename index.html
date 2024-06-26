@@ -62,9 +62,11 @@
         </div>
         <div id="gameOver"> Game Over! </div>
         <div id="finalDisplay"></div>
-        <button onclick="resetGame()" id="reset">Have another go!</button>
-        <button id="gameSummary">Detailed Summary</button>
-        
+
+        <div id="interact-button">
+            <button onclick="resetGame()" id="reset">Have another go!</button>
+            <button id="gameSummary">Detailed Summary</button>
+        </div>
         <!--A hidden modal that will contain the rules for the rule button in the header-->
         <div id="rulesModal" class="modal">
             <div class="modalContent">
@@ -76,6 +78,18 @@
                 <p class="modal-text">4. The last rule is to have fun and try to beat the computer over to you!</p>
             </div>
         </div>
+
+        <!-- This modal will contain the game summary showing the scores for the rounds that were played.-->
+        <div id="summaryModal" class="modal">
+            <div class="gameSummary-content">
+                <span class="closeSummary-modal">&times;</span>
+                <h3>The Summary of the Game</h3>
+                <ul id="summaryList"></ul>
+            </div>
+
+        </div>
+
+
     </main>
     <footer>
         This is the footer
