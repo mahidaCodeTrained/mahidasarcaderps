@@ -27,7 +27,7 @@ This page contains a single webpage called :
 - In this section of this file the mockup screenshots of this project will be displayed with how it looks on mobile, tablet and a desktop.
 - I used the "Am I Responsive?" website which is a great website to display how your site will look like on all devices as it gives a great template of which you can move and screenshot the images of your displayed project. 
 
- ![screenshot](documentation/mockups/index.htmlpic.png)  ![screenshot](documentation/mockups/locations.htmlpic.png) ![screenshot](documentation/mockups/gallery.htmlpic.png)
+ ![screenshot](documentation/)  ![screenshot](documentation/mockups/) ![screenshot](documentation/mock)
 
 
 ## Wireframes
@@ -54,6 +54,17 @@ This page contains a single webpage called :
 
 
 ## Features
+- This project is only one page so it doesn't adding in many features was quite the challenge. However, there are features to be seen in this site which are highly stylistic and very good for the overall user experience of the site.
+
+| Feature | Description | Screenshot |
+| :---: | :---: | :---: |
+| **Rules Button** | There is a rules button added in the header which is clear for everybody to see as many view websites from top down. | ![screenshot](documentation/features/rules.userstory.jpg) |
+| **Rules Hover** | The rules button when hovered over displays a green background color indiciating that it's clickable. | ![screenshot](documentation/features/ruleshover.feature.jpg) |
+| **Video Controls** | The video elements have controls where you can mute audio and lower the volume | ![screenshot](documentation/features/controls.feature.jpg) |
+| **Footer Links** | The footer element has clickable links that are logos from FontAwesome | ![screenshot](documentation/features/footerlogos.feature.jpg) |
+| **Reset Button** | A button that allows you to reset the entire game from zero and play again. | ![screenshot](documentation/features/reset.featurwe.jpg) |
+| **Incrementing Scoreboard** | The scoreboard self increments after the players choice whether or not they win or lose. | ![screenshot](documentation/features/incrementingscoreboard.fwature.jpg) |
+| **Hidden Elements** | This site takes advantage of hiding elements when you complete the number of Games put within the JavaScript. It hides elements and displays those which were hidden to have better use of space for the user. | ![screenshot](documentation/features/hiddenelements.feature.jpg) |
 
 ### Future Features
 
@@ -68,6 +79,7 @@ This page contains a single webpage called :
 3. As a new user, I want to have a chance to replay the game if I wanted to on the site.
 4. As a new user, I want to know why I won and why the computer has lost with our options displayed.
 5. As a new user, I want there to be a difference in the display of the site whether or not I win or lose.
+6. As a new user, I want to clearly see what my score is against the computers score.|
 
 
 
