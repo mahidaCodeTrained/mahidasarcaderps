@@ -103,9 +103,7 @@ button {
     height: 100px;
 }
 
-
-
-#selector:hover {
+.selector:hover {
     background-color: green;
     transition: 0.5s;
 }
