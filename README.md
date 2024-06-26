@@ -27,7 +27,7 @@ This page contains a single webpage called :
 - In this section of this file the mockup screenshots of this project will be displayed with how it looks on mobile, tablet and a desktop.
 - I used the "Am I Responsive?" website which is a great website to display how your site will look like on all devices as it gives a great template of which you can move and screenshot the images of your displayed project. 
 
- ![screenshot](documentation/)  ![screenshot](documentation/mockups/) ![screenshot](documentation/mock)
+ ![screenshot](documentation/mockups/mockupscreen1.jpg)  ![screenshot](documentation/mockups/mockupscreen2.jpg) 
 
 
 ## Wireframes
@@ -80,7 +80,6 @@ This page contains a single webpage called :
 4. As a new user, I want to know why I won and why the computer has lost with our options displayed.
 5. As a new user, I want there to be a difference in the display of the site whether or not I win or lose.
 6. As a new user, I want to clearly see what my score is against the computers score.|
-
 
 
 ## UX
@@ -181,7 +180,7 @@ This repository can be cloned by following these steps.
 | [Pexels](https://www.pexels.com/) | index.html, | "This site gave me great videos to use in the website." |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp) | gallery.html | taught me how to make a parralax |
 | [YouTube](https://www.youtube.com/watch?v=jaVNP3nIAv0) | index.html, | This video gave me an idea on how to set up a stylistic scoreboard for a rock paper scissors game. |
-| [Alan Bushell's GitHub Repo](https://github.com/Alan-Bushell/belfast-auto-repairs) | README.md, TESTING.md | This gave me alot of guidance on how to use markdown language and gave me a feel for the structure of the README.md file. |
+| [Alan Bushell's GitHub Repo](https://github.com/Alan-Bushell/belfast-auto-repairs) | README.md, TESTING.md | This gave me alot of knowledge on how to structure certain elements of a README.md file.
 
 ##  Acknowledgements
 - I would like to thank my Code Institute mentor [Alan Bushell] (https://github.com/Alan-Bushell)
