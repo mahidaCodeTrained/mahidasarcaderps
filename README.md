@@ -180,7 +180,7 @@ This repository can be cloned by following these steps.
 | --- | --- | --- |
 | [Font Awesome](https://fontawesome.com/) | index.html | helped me get the logos for the game choices + logos for the footer |
 | [Pexels](https://www.pexels.com/) | index.html, | "This site gave me great videos to use in the website." |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp) | gallery.html | taught me how to make a parralax |
+| [W3Schools](https://www.w3schools.com/js/js_window.asp) | index.html | This website gave me alot of extra knowledge on top of the courses on JavaScript |
 | [YouTube](https://www.youtube.com/watch?v=jaVNP3nIAv0) | index.html, | This video gave me an idea on how to set up a stylistic scoreboard for a rock paper scissors game. |
 | [Alan Bushell's GitHub Repo](https://github.com/Alan-Bushell/belfast-auto-repairs) | README.md, TESTING.md | This gave me alot of knowledge on how to structure certain elements of a README.md file.
 
