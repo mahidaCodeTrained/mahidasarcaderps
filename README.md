@@ -56,6 +56,12 @@ This page contains a single webpage called :
 ## Features
 - This project is only one page so it doesn't adding in many features was quite the challenge. However, there are features to be seen in this site which are highly stylistic and very good for the overall user experience of the site.
 
+- This site uses many buttons as options for the user to experience. If the user wanted to play the game they have the option to do that with clickable buttons in place.
+- In addition to this, this page has alot of interactivity with the use of the modal which in this site is used to display the rules when the rules button is clicked. 
+- These features were paramount as they ensure the user has a good experience with the site and leaves knowing the rules of Rock, Paper, Scissors and leaves with a game under their belt. 
+
+- Videos were added as a feature in this site depending on whether or not you win or lose both contain videos giving the user a refresh and sense of victory or loss in the game. 
+
 | Feature | Description | Screenshot |
 | :---: | :---: | :---: |
 | **Rules Button** | There is a rules button added in the header which is clear for everybody to see as many view websites from top down. | ![screenshot](documentation/features/rules.userstory.png) |
@@ -66,6 +72,7 @@ This page contains a single webpage called :
 | **Incrementing Scoreboard** | The scoreboard self increments after the players choice whether or not they win or lose. | ![screenshot](documentation/features/incrementingscoreboard.fwature.png) |
 | **Hidden Elements** | This site takes advantage of hiding elements when you complete the number of Games put within the JavaScript. It hides elements and displays those which were hidden to have better use of space for the user. | ![screenshot](documentation/features/hiddenelements.feature.png) |
 | **Game Choices** | There are game choices stated as Rock Paper Scissors that can be selected by the user to play the game + In addition, these are hoverable and are distinct with their pointer cursor. | ![screenshot](documentation/features/gamechoices.feature.png) |
+| **Video** | There are videos that will be taken off from being hidden to being present if the user wins or loses the game. Whether or not they win or lose they will have a video playing that will give the site more life. | ![screenshot](documentation/features/video.png) |
 
 
 ### Future Features
