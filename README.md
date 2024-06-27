@@ -65,6 +65,8 @@ This page contains a single webpage called :
 | **Reset Button** | A button that allows you to reset the entire game from zero and play again. | ![screenshot](documentation/features/reset.featurwe.png) |
 | **Incrementing Scoreboard** | The scoreboard self increments after the players choice whether or not they win or lose. | ![screenshot](documentation/features/incrementingscoreboard.fwature.png) |
 | **Hidden Elements** | This site takes advantage of hiding elements when you complete the number of Games put within the JavaScript. It hides elements and displays those which were hidden to have better use of space for the user. | ![screenshot](documentation/features/hiddenelements.feature.png) |
+| **Game Choices** | There are game choices stated as Rock Paper Scissors that can be selected by the user to play the game + In addition, these are hoverable and are distinct with their pointer cursor. | ![screenshot](documentation/features/gamechoices.feature.png) |
+
 
 ### Future Features
 
