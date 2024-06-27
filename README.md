@@ -88,7 +88,7 @@ This page contains a single webpage called :
 3. As a new user, I want to have a chance to replay the game if I wanted to on the site.
 4. As a new user, I want to know why I won and why the computer has lost with our options displayed.
 5. As a new user, I want there to be a difference in the display of the site whether or not I win or lose.
-6. As a new user, I want to clearly see what my score is against the computers score.|
+6. As a new user, I want to clearly see what my score is against the computers score.
 
 
 ## UX
@@ -192,6 +192,6 @@ This repository can be cloned by following these steps.
 | [Alan Bushell's GitHub Repo](https://github.com/Alan-Bushell/belfast-auto-repairs) | README.md, TESTING.md | This gave me alot of knowledge on how to structure certain elements of a README.md file.
 
 ##  Acknowledgements
-- I would like to thank my Code Institute mentor [Alan Bushell] (https://github.com/Alan-Bushell)
-- I would like to thank the Code Institue [slack community] (https://code-institute-room.slack.com)
+- I would like to thank my Code Institute mentor [Alan Bushell](https://github.com/Alan-Bushell)
+- I would like to thank the Code Institute [slack community](https://code-institute-room.slack.com)
 - I would like to thank my family for helping support me through my second project and constantly checking my page.
